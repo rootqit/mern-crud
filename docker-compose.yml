@@ -21,7 +21,7 @@ services:
     image: mern-crud
     command: npm start --prefix react-src
     ports:
-      - "4200:4200"
+      - "4200:80"
     environment:
       - "REACT_APP_API_URL=http://localhost:3000"
     volumes:
